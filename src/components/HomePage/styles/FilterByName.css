@@ -1,0 +1,26 @@
+.filtername {
+	font-size: 0.7em;
+	@media (width > 760px) {
+		& {
+			font-size: 1.2em;
+		}
+	}
+}
+
+.filtername__form-input {
+	padding: 0.8em;
+	border-color: #0005;
+}
+
+.filtername__form-btn {
+	padding: 0.8em;
+	color: #fff;
+	background-color: #fe4040;
+
+	font-weight: 600;
+	filter: brightness(0.9);
+	transition: filter 0.5s ease;
+	&:hover {
+		filter: none;
+	}
+}
